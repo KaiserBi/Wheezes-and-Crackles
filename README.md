@@ -21,4 +21,4 @@ This project implements a deep learning pipeline for classifying respiratory sou
 ##  Training
 -  run train.py for training. Adjust configurations in config.json
 -  Or you can use my pre-trained model under the 'models' folder
-  ![Train result after 250 epochs, with 4 residual blocks](Result%20plots/Train_result_250_epoch.jpeg)
+  ![Train result after 250 epochs, with 4 residual blocks](Result%20plots/Train_result_250_epoch.jpeg"Train%20result%20250%20epochs%20with%204%20residual%20blocks")
