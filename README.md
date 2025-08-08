@@ -38,5 +38,10 @@ The system tracks the following:
   ![fine-tuning result](Result%20plots/200E+100T_1.jpeg)
 
 -  run transfer_train_resnet6_fixed.py for transferring pre-trained model(4 residual blocks) to 6-residual blocks network
+
+##  Acknowledgements
+-  The 1D-ResNet was partly based upon the work of Shenda Hong. repository: https://github.com/hsd1503/resnet1d.git
+  I have adapted their residual block design and model interface for respiratory sound classification.
+-  The early-stopping function was from Bjarte Mehus Sunde. repository: https://github.com/Bjarten/early-stopping-pytorch.git
   
 
