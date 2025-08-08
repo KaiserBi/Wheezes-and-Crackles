@@ -18,6 +18,12 @@ This project implements a deep learning pipeline for classifying respiratory sou
 - To extract .pt segments with labels, run batch_extraction.py
 - Due to the unbalanced amount of wheeze/crackle samples, run balance_crackle.py to balance the amount of both samples
 
+##  Metrics
+The system tracks the following:
+`F1 score` for labels wheeze and crackle 
+`Multi-label accuracy` exact match between prediction and ground truth
+`validation loss`
+
 ##  Training
 -  run train.py for training. Adjust configurations in config.json
 -  Using AMP would significantly decrease time taken for every epoch
@@ -26,4 +32,11 @@ This project implements a deep learning pipeline for classifying respiratory sou
   ![Train result after 250 epochs, with 4 residual blocks](Result%20plots/Train_result_250_epoch.jpeg)
 
 ##  Fine-tuning and Transfer learning
+-  for threshold optimization, run optimize_thresholds.py to get the best threshold for labels and the best Multi-lable accuracy for the model
+-  use fine_tuning.py for incremental learning. Adjust the configuration through fine_tuning_config.json
+-  below shows the result after 100 epochs of fine-tuning, the pre-trained model was trained for 200 epochs
+  ![fine-tuning result](Result%20plots/200E+100T_1.jpeg)
+
+-  run transfer_train_resnet6_fixed.py for transferring pre-trained model(4 residual blocks) to 6-residual blocks network
+  
 
