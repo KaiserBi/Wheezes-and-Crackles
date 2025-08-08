@@ -19,9 +19,9 @@ This project implements a deep learning pipeline for classifying respiratory sou
 - Due to the unbalanced amount of wheeze/crackle samples, run balance_crackle.py to balance the amount of both samples
 
 ##  Metrics
-The system tracks the following:
-`F1 score` for labels wheeze and crackle 
-`Multi-label accuracy` exact match between prediction and ground truth
+The system tracks the following:  
+`F1 score` for labels wheeze and crackle   
+`Multi-label accuracy` exact match between prediction and ground truth  
 `validation loss`
 
 ##  Training
