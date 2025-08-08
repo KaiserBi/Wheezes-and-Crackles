@@ -16,7 +16,10 @@ This project implements a deep learning pipeline for classifying respiratory sou
 
 - Metrics tracked: F1 (per label), multi-label accuracy
 
-##  Data_processing 
+##  Installation
+(pip install -r requirements.txt)
+
+##  Data processing 
 - The original data files are from https://bhichallenge.med.auth.gr/
 - To extract .pt segments with labels, run batch_extraction.py
 - Due to the unbalanced amount of wheeze/crackle samples, run balance_crackle.py to balance the amount of both samples
