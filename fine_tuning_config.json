@@ -1,0 +1,28 @@
+{
+ "DEVICE": "cuda",
+  "PT_DATA_DIR": "D:/Resnet/pt_file_save",
+  "SAMPLE_LENGTH": 64000,
+  "NUM_CLASSES": 2,
+  "MODEL_CONFIG": {
+    "in_channels": 1,
+    "base_filters": 64,
+    "kernel_size": 32,
+    "stride": 2,
+    "groups": 1,
+    "n_block": 4,
+    "n_classes": 2,
+    "downsample_gap": 2,
+    "increasefilter_gap": 4,
+    "use_bn": true,
+    "use_do": true,
+    "verbose": false
+  },
+  "BATCH_SIZE": 24,
+  "EPOCHS": 50,
+  "LEARNING_RATE": 1e-6,
+  "POS_WEIGHT": [3.0, 6.0],
+  "USE_AMP": true,
+  "early_stop":{"patience":50,
+                "verbose":true
+            }
+}
