@@ -41,7 +41,7 @@ The system tracks the following:
 
 ##  Acknowledgements
 -  The 1D-ResNet was partly based upon the work of Shenda Hong. repository: https://github.com/hsd1503/resnet1d.git
-  -  I have adapted their residual block design and model interface for respiratory sound classification.
+    -  I have adapted their residual block design and model interface for respiratory sound classification.
 
 -  The early-stopping function was from Bjarte Mehus Sunde. repository: https://github.com/Bjarten/early-stopping-pytorch.git
   
