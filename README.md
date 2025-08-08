@@ -18,3 +18,6 @@ This project implements a deep learning pipeline for classifying respiratory sou
 - To extract .pt segments with labels, run batch_extraction.py
 - Due to the unbalanced amount of wheeze/crackle samples, run balance_crackle.py to balance the amount of both samples
 
+##  Training
+-  run train.py for training. Adjust configurations in config.json
+-  Or you can use my pre-trained model under the 'models' folder
