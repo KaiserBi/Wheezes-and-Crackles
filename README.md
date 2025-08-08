@@ -17,7 +17,7 @@ This project implements a deep learning pipeline for classifying respiratory sou
 - Metrics tracked: F1 (per label), multi-label accuracy
 
 ##  Installation
-(pip install -r requirements.txt)
+pip install -r requirements.txt`
 
 ##  Data processing 
 - The original data files are from https://bhichallenge.med.auth.gr/
